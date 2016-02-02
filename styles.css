@@ -1,0 +1,88 @@
+.octodex {
+  border: 1px solid lightgray;
+  width: 100%;
+  display: block;
+  clear: both;
+  padding: 0;
+}
+
+.octocat {
+  width: 33%;
+  display: inline-block;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.octocat a img {
+  width: 95%;
+  border: 1px solid lightgray;
+  display: block;
+  margin: 0 auto;
+}
+
+.image-footer::before {
+  content: '';
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-top: 5px solid lightgray;
+  position: absolute;
+  right: 3%;
+  top: -5px;
+}
+
+.image-footer {
+  width: 95%;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 5px;
+  height: 25px;
+  font-size: .6em;
+  border-bottom: 1px solid lightgray;
+}
+
+.image-caption {
+  position: absolute;
+  right: 2%;
+  top: 2px;
+}
+
+.image-caption span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.image-caption a {
+  display: inline-block;
+  vertical-align: middle;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.image-number {
+  color: lightgray;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 2%;
+  margin-top: 7px;
+}
+
+.image-number::before {
+  content: '#';
+  color: lightgray;
+  font-size: .8em;
+}
+
+.authors {
+  list-style-type: none;
+  text-align: right;
+  display: inline-block;
+  padding: 0;
+}
+
+.authors a img {
+  width: 15px;
+  display: inline-block;
+}
