@@ -2,7 +2,7 @@
   border: 1px solid lightgray;
   width: 100%;
   display: block;
-  clear: both;
+  text-align: justify;
   padding: 0;
 }
 
