@@ -1,3 +1,4 @@
+
 .octodex {
   border: 1px solid lightgray;
   display: block;
@@ -84,4 +85,16 @@
 .authors a img {
   width: 15px;
   display: inline-block;
+}
+
+@media (max-width:900px){
+  .octocat {
+    width: 49%;
+  }
+}
+
+@media (max-width: 600px){
+  .octocat {
+    width: 100%;
+  }
 }
